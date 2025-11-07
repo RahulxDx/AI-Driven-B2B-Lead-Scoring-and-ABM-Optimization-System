@@ -1,0 +1,62 @@
+Company_Size,Industry,Annual_Revenue,Website_Visits,Email_Opens,Ad_Clicks,Engagement_Score,Lead_Source,Region,Previous_Purchases
+Large,Tech,75000.50,45,15,12,82.5,Organic,North America,4
+Medium,Finance,45000.25,32,10,8,68.3,Paid Ads,Europe,2
+Small,Healthcare,18000.75,18,6,3,45.2,Referral,North America,1
+Large,Manufacturing,92000.00,52,18,15,88.7,Social Media,North America,5
+Medium,Tech,38000.50,28,9,7,62.1,Email Campaign,Europe,2
+Small,Retail,12000.25,15,5,2,38.9,Organic,Asia,0
+Large,Finance,85000.75,48,16,13,85.2,Paid Ads,North America,4
+Medium,Healthcare,35000.00,25,8,6,58.4,Referral,Europe,2
+Small,Education,15000.50,20,7,4,42.3,Social Media,North America,1
+Large,Tech,98000.25,55,20,18,91.5,Organic,North America,6
+Medium,Manufacturing,42000.75,30,11,9,65.7,Paid Ads,Europe,3
+Small,Finance,16000.00,22,8,5,47.8,Referral,Asia,1
+Large,Healthcare,88000.50,50,17,14,87.3,Email Campaign,North America,5
+Medium,Retail,39000.25,27,9,7,61.2,Social Media,Europe,2
+Small,Tech,14000.75,17,6,3,40.1,Organic,North America,0
+Large,Finance,78000.00,44,15,12,83.9,Paid Ads,North America,4
+Medium,Healthcare,41000.50,29,10,8,64.5,Referral,Europe,3
+Small,Manufacturing,13000.25,16,5,2,35.6,Social Media,Asia,0
+Large,Tech,95000.75,53,19,16,89.8,Organic,North America,6
+Medium,Finance,44000.00,31,11,9,67.4,Paid Ads,Europe,3
+Small,Healthcare,11000.50,14,4,1,33.2,Referral,North America,0
+Large,Manufacturing,82000.25,46,16,13,86.1,Email Campaign,North America,5
+Medium,Tech,37000.75,26,8,6,59.8,Social Media,Europe,2
+Small,Retail,17000.00,21,7,4,49.5,Organic,Asia,1
+Large,Finance,90000.50,51,18,15,90.3,Paid Ads,North America,6
+Medium,Healthcare,43000.25,30,10,8,66.2,Referral,Europe,3
+Small,Education,19000.75,23,8,5,51.7,Social Media,North America,1
+Large,Tech,87000.00,49,17,14,84.6,Organic,North America,5
+Medium,Manufacturing,40000.50,28,9,7,63.1,Paid Ads,Europe,2
+Small,Finance,10000.25,13,4,1,31.4,Referral,Asia,0
+Large,Healthcare,79000.75,45,15,12,82.8,Email Campaign,North America,4
+Medium,Retail,36000.00,25,8,6,57.9,Social Media,Europe,2
+Small,Tech,12500.50,19,6,3,43.6,Organic,North America,1
+Large,Finance,93000.25,54,20,17,91.2,Paid Ads,North America,6
+Medium,Healthcare,47000.75,33,12,10,69.8,Referral,Europe,3
+Small,Manufacturing,15500.00,24,8,5,48.3,Social Media,Asia,1
+Large,Tech,86000.50,48,16,13,85.7,Organic,North America,5
+Medium,Finance,46000.25,32,11,9,68.9,Paid Ads,Europe,3
+Small,Retail,18500.75,22,7,4,50.4,Referral,North America,1
+Large,Healthcare,91000.00,52,19,16,89.4,Email Campaign,North America,6
+Medium,Manufacturing,48000.50,34,12,10,71.5,Social Media,Europe,3
+Small,Education,10500.25,12,3,1,28.7,Organic,Asia,0
+Large,Tech,84000.75,47,15,12,83.2,Organic,North America,5
+Medium,Finance,49000.00,35,13,11,72.6,Paid Ads,Europe,3
+Small,Healthcare,20000.50,25,9,6,53.8,Referral,North America,1
+Large,Manufacturing,97000.25,56,21,19,92.7,Social Media,North America,6
+Medium,Retail,50000.75,36,13,11,73.9,Email Campaign,Europe,3
+Small,Tech,14500.00,18,5,2,39.2,Organic,Asia,0
+Large,Finance,81000.50,43,14,11,81.5,Paid Ads,North America,4
+Medium,Healthcare,51000.25,37,14,12,75.3,Referral,Europe,3
+Small,Consulting,22000.75,26,10,7,55.1,Social Media,North America,1
+Large,Tech,88000.00,50,17,14,87.9,Organic,North America,5
+Medium,Manufacturing,52000.50,38,15,13,76.8,Paid Ads,Europe,4
+Small,Finance,16500.25,20,6,3,44.7,Referral,Asia,1
+Large,Healthcare,94000.75,55,20,18,93.1,Email Campaign,North America,6
+Medium,Retail,53000.00,39,16,14,78.2,Social Media,Europe,4
+Small,Education,13500.50,17,5,2,37.4,Organic,North America,0
+Large,Tech,83000.25,44,15,12,84.3,Organic,North America,5
+Medium,Finance,54000.75,40,17,15,79.6,Paid Ads,Europe,4
+Small,Healthcare,17500.00,21,7,4,46.9,Referral,North America,1
+
