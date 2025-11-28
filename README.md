@@ -2,7 +2,7 @@
 
 A complete machine learning system for scoring B2B leads and optimizing account-based marketing strategies using XGBoost classification.
 
-## 🎯 Features
+## Features
 
 - **Synthetic Dataset Generation**: Creates realistic B2B lead data with 2000 samples
 - **Multiple ML Models**: Compares Logistic Regression, Random Forest, XGBoost, LightGBM, and CatBoost
@@ -12,12 +12,12 @@ A complete machine learning system for scoring B2B leads and optimizing account-
 - **Comprehensive Metrics**: Accuracy, Precision, Recall, F1-Score, ROC-AUC
 - **Feature Importance Visualization**: Understand what drives lead quality
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.8+
 - See `requirements.txt` for package dependencies
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 
@@ -46,7 +46,7 @@ streamlit run app.py
 
 Upload a CSV file with lead data to get predictions.
 
-## 📊 Data Format
+##  Data Format
 
 Your CSV file should contain these columns:
 
@@ -64,7 +64,7 @@ Your CSV file should contain these columns:
 - `Engagement_Score`: Engagement score (0-100)
 - `Previous_Purchases`: Number of previous purchases (integer)
 
-## 🎯 Lead Scoring
+##  Lead Scoring
 
 The system predicts three lead quality categories:
 - **High**: Premium quality leads - prioritize immediately
@@ -79,7 +79,7 @@ The system predicts three lead quality categories:
 
 The app automatically ranks leads using a composite scoring system.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 B2B Project/
@@ -100,7 +100,7 @@ B2B Project/
 - **Best Model Selection**: Based on weighted F1-score
 - **Preprocessing**: One-hot encoding + StandardScaler normalization
 
-## 📈 Output
+##  Output
 
 The training script generates:
 - Model performance comparison table
@@ -108,7 +108,7 @@ The training script generates:
 - Feature importance plot (`feature_importance.png`)
 - Detailed metrics for each model
 
-## 🌐 Web Application Features
+##  Web Application Features
 
 - **Upload CSV**: Simple drag-and-drop interface
 - **Automatic Preprocessing**: Handles missing values and encoding
@@ -118,21 +118,21 @@ The training script generates:
 - **Filter & Sort**: Flexible data exploration
 - **CSV Export**: Download results with predictions
 
-## 🎨 Interface Highlights
+##  Interface Highlights
 
 - Clean, professional design
 - Color-coded lead scores (Green=High, Yellow=Medium, Red=Low)
 - Responsive layout
 - Real-time metrics and insights
 
-## 📝 Example Usage
+##  Example Usage
 
 1. Train model: `python b2b_lead_scoring.py`
 2. Start app: `streamlit run app.py`
 3. Upload `demo_leads.csv` to test
 4. View predictions and download results
 
-## 🔍 Model Performance
+##  Model Performance
 
 The system compares 5 models and automatically selects the best performer:
 - Logistic Regression
@@ -141,11 +141,11 @@ The system compares 5 models and automatically selects the best performer:
 - LightGBM
 - CatBoost
 
-## 📞 Support
+##  Support
 
 For issues or questions, refer to the code comments or adjust parameters in the scripts.
 
-## 📄 License
+##  License
 
 This project is provided as-is for educational and commercial use.
 
