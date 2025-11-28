@@ -92,7 +92,7 @@ B2B Project/
 └── README.md               # This file
 ```
 
-## 🔧 Model Training Details
+##  Model Training Details
 
 - **Train-Test Split**: 80/20 stratified split
 - **Cross-Validation**: 5-fold stratified K-Fold
