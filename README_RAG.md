@@ -2,7 +2,7 @@
 
 This document explains how to use the RAG (Retrieval-Augmented Generation) based AI chatbot feature.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 
@@ -54,7 +54,7 @@ streamlit run app.py
 3. Go to the "AI Chat Assistant" tab
 4. Start asking questions!
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 B2B Project/
@@ -70,7 +70,7 @@ B2B Project/
 └── rag/vector_store/         # ChromaDB persistent storage (created automatically)
 ```
 
-## 🤖 How It Works
+## How It Works
 
 1. **Context Building**: When you upload data, the system converts each lead into descriptive text chunks
 2. **Vector Storage**: Text chunks are embedded using sentence-transformers and stored in ChromaDB
@@ -80,7 +80,7 @@ B2B Project/
    - Context + question is sent to LLM
    - Response is generated and displayed
 
-## 💬 Example Questions
+##  Example Questions
 
 - "Which companies have the highest lead scores?"
 - "Summarize performance for Tech industry"
@@ -89,7 +89,7 @@ B2B Project/
 - "What percentage of leads are High quality?"
 - "Show me insights about companies in Finance industry"
 
-## 🔧 Configuration
+##  Configuration
 
 ### Change LLM Provider
 
@@ -105,7 +105,7 @@ Edit `rag/query_engine.py` in the `query()` method:
 contexts = self._retrieve_context(user_query, top_k=5)  # Change top_k
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### API Connection Error
 
@@ -128,16 +128,16 @@ If you haven't set an API key:
 - Functionality is limited but still works
 - For best results, set up an API key (see Step 2 above)
 
-## 📊 Features
+##  Features
 
-✅ **Automatic Context Building**: Context is built when data is uploaded
-✅ **Persistent Storage**: ChromaDB stores embeddings locally
-✅ **Smart Caching**: Skips rebuilding if data hasn't changed
-✅ **Multiple LLM Support**: OpenAI, Groq, Gemini, or template fallback
-✅ **Beautiful UI**: Chat interface with Streamlit chat components
-✅ **Context Sources**: Shows how many sources were used for each answer
+ **Automatic Context Building**: Context is built when data is uploaded
+ **Persistent Storage**: ChromaDB stores embeddings locally
+ **Smart Caching**: Skips rebuilding if data hasn't changed
+ **Multiple LLM Support**: OpenAI, Groq, Gemini, or template fallback
+ **Beautiful UI**: Chat interface with Streamlit chat components
+ **Context Sources**: Shows how many sources were used for each answer
 
-## 🎯 Advanced Usage
+##  Advanced Usage
 
 ### Rebuild Context Manually
 
@@ -153,14 +153,14 @@ To use a different embedding model, edit `rag/context_builder.py`:
 self.embedding_model = SentenceTransformer('your-model-name')
 ```
 
-## 📝 Notes
+##  Notes
 
 - The vector store is persisted in `./rag/vector_store/`
 - Context is automatically rebuilt when data changes
 - The chat history is stored in Streamlit session state
 - API runs on port 8000 by default (change in `start_api.py` if needed)
 
-## 🔐 Security
+##  Security
 
 - API keys are read from environment variables (never hardcode)
 - CORS is enabled for local development (restrict in production)
